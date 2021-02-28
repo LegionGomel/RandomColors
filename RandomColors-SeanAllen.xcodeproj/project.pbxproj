@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		CE2BB01625DAF84B0077F226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2BB01425DAF84B0077F226 /* Main.storyboard */; };
 		CE2BB01825DAF84B0077F226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2BB01725DAF84B0077F226 /* Assets.xcassets */; };
 		CE2BB01B25DAF84B0077F226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2BB01925DAF84B0077F226 /* LaunchScreen.storyboard */; };
+		CE2BB02525DAFF4B0077F226 /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BB02425DAFF4B0077F226 /* ColorsDetailViewController.swift */; };
+		CE2BB02925DB0FEC0077F226 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BB02825DB0FEC0077F226 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE2BB01725DAF84B0077F226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2BB01A25DAF84B0077F226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2BB01C25DAF84B0077F226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2BB02425DAFF4B0077F226 /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
+		CE2BB02825DB0FEC0077F226 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				CE2BB00E25DAF84B0077F226 /* AppDelegate.swift */,
 				CE2BB01025DAF84B0077F226 /* SceneDelegate.swift */,
+				CE2BB02825DB0FEC0077F226 /* UIColorExtension.swift */,
 				CE2BB01225DAF84B0077F226 /* ViewController.swift */,
+				CE2BB02425DAFF4B0077F226 /* ColorsDetailViewController.swift */,
 				CE2BB01425DAF84B0077F226 /* Main.storyboard */,
 				CE2BB01725DAF84B0077F226 /* Assets.xcassets */,
 				CE2BB01925DAF84B0077F226 /* LaunchScreen.storyboard */,
@@ -102,7 +108,7 @@
 				};
 			};
 			buildConfigurationList = CE2BB00625DAF84B0077F226 /* Build configuration list for PBXProject "RandomColors-SeanAllen" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -139,6 +145,8 @@
 			files = (
 				CE2BB01325DAF84B0077F226 /* ViewController.swift in Sources */,
 				CE2BB00F25DAF84B0077F226 /* AppDelegate.swift in Sources */,
+				CE2BB02925DB0FEC0077F226 /* UIColorExtension.swift in Sources */,
+				CE2BB02525DAFF4B0077F226 /* ColorsDetailViewController.swift in Sources */,
 				CE2BB01125DAF84B0077F226 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
